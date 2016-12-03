@@ -1,0 +1,11 @@
+--- Makefile	2016-11-08 08:06:21.000000000 +0100
++++ Makefile	2016-12-04 20:18:08.087376672 +0100
+@@ -84,7 +84,7 @@
+ override WINDRES := $(TOOLCHAIN)-$(WINDRES)
+ endif
+ 
+-prefix=/usr/local
++prefix=/usr
+ datarootdir=$(prefix)/share
+ datadir=$(datarootdir)
+ exec_prefix=$(prefix)
